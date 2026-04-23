@@ -38,7 +38,7 @@ travel_assistant_project/ │ ├── app/ │   ├── main.py            
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repo
 git clone https://github.com/YOUR_USERNAME/multi-agent-travel-assistant.git cd multi-agent-travel-assistant
