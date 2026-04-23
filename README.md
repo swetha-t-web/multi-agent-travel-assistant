@@ -1,6 +1,6 @@
-# ✈️ Multi-Agent Travel Assistant
+#  Multi-Agent Travel Assistant
 
-## 📌 Project Overview
+##  Project Overview
 This project is a Multi-Agent Travel Assistant that automatically plans trips based on user input.
 
 It uses multiple AI agents to:
@@ -11,19 +11,19 @@ It uses multiple AI agents to:
 
 ---
 
-## 🚀 Features
-- ✅ Extracts travel details from user input
-- ✅ Asks clarification if data is missing
-- ✅ Generates:
+## Features
+- Extracts travel details from user input
+- Asks clarification if data is missing
+- Generates:
   - Flight details (mock)
   - Hotel booking (mock)
   - Travel itinerary
-- ✅ Uses vector database for smarter recommendations
-- ✅ Clean UI using Streamlit
+-  Uses vector database for smarter recommendations
+- Clean UI using Streamlit
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 - FastAPI → Backend API
 - Streamlit → Frontend UI
 - LangGraph → Multi-agent workflow
@@ -33,7 +33,7 @@ It uses multiple AI agents to:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 travel_assistant_project/ │ ├── app/ │   ├── main.py            # FastAPI backend │   ├── graph.py           # Agent workflow (LangGraph) │   ├── state.py           # State structure │   ├── config.py          # Model configuration │   └── knowledge.py       # Vector DB setup │ ├── ui/ │   └── streamlit_app.py   # Frontend UI │ ├── requirements.txt ├── README.md └── .gitignore
 
 ---
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### 4. Setup Ollama (IMPORTANT)
 Download and install:
-👉 https://ollama.com/download
+ https://ollama.com/download
 
 Run model:
 ollama run llama3
@@ -75,23 +75,23 @@ ollama run llama3
 ### 5. Run Backend (FastAPI)
 uvicorn app.main:app --reload
 
-👉 Runs at: http://127.0.0.1:8000
+Runs at: http://127.0.0.1:8000
 
 ---
 
 ### 6. Run Frontend (Streamlit)
 streamlit run ui/streamlit_app.py
 
-👉 Opens at: http://localhost:8501
+Opens at: http://localhost:8501
 
 ---
 
-## 🧪 Example Input
+##  Example Input
 My name is Swetha. Plan a 3-day trip to New York from April 10 to April 13 with a budget of 1000 USD.
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 1. User enters travel request
 2. Interaction agent extracts data
 3. Router checks missing fields
@@ -103,7 +103,7 @@ My name is Swetha. Plan a 3-day trip to New York from April 10 to April 13 with 
 
 ---
 
-## 🧩 Agents Used
+##  Agents Used
 - Interaction Agent
 - Clarification Agent
 - Flight Agent
@@ -113,14 +113,14 @@ My name is Swetha. Plan a 3-day trip to New York from April 10 to April 13 with 
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 - Flight & hotel are mock (not real booking)
 - Requires Ollama running locally
 - Basic UI
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Real flight APIs (Amadeus, Skyscanner)
 - Real hotel APIs (Booking.com)
 - Authentication (user login)
@@ -129,10 +129,7 @@ My name is Swetha. Plan a 3-day trip to New York from April 10 to April 13 with 
 
 ---
 
-## 👤 Author
-Swetha
 
----
 
-## ⭐ If you like this project
+##  If you like this project
 Give it a star on GitHub
