@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langgraph
+langchain-text-splitters
+faiss-cpu
+pydantic
+ipykernel
